@@ -1,0 +1,74 @@
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #25AE90;
+	color: #fff;
+	border-top: 3px solid rgb(27, 111, 75);
+	background-size: cover;
+	padding: 5%;
+}
+
+h1{
+	font-size: 2.1rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 25px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#response{
+	width: 50%;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.form-app{
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	padding: 20px 20px 40px 20px;
+	width: 50%;
+	margin: auto;
+	border-radius: 3px;
+	text-align: center;
+	height: auto;
+}
+
+.form-app input[type="text"]{
+	width: 100%;
+	margin: 10px 0px;
+	border: 1px solid rgb(209, 209, 209);
+	background: transparent;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 15px;
+	color: #000;
+	margin-bottom: 40px;
+}
+
+.form-app #send-data{
+	width: auto;
+	padding: 10px 40px;
+	font-size: 15px;
+	background: #25AE90;
+	border: 1px solid transparent;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+/*-------------- R E S P O N S I V E ---------------*/
+
+@media handheld, only screen and (max-width: 667px) {
+	
+	body{
+		padding: 10% 3%;
+	}	
+
+	.form-app, #response{
+		width: 100%;
+	}
+}
